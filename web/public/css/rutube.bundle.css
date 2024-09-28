@@ -1,0 +1,28 @@
+*, body {
+    font-family: "Open Sans", "Arial", sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #3a3f4b #1e2127;
+}
+
+.font-open-sans {
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #505c6d;
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #293341; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3e4b5d; 
+}
