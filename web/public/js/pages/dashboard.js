@@ -22,7 +22,7 @@ $(document).ready(function() {
         const metricsHtml = sortedMetrics.map(([key, value]) => `
             <div class="flex justify-between items-center bg-gray-700 rounded-lg p-2">
                 <span class="md:text-xs text-[11px] text-gray-400">${formatMetricName(key)}</span>
-                <span class="text-lg font-semibold text-[#00a1e7]">${Math.round(value)}</span>
+                <span class="text-lg font-semibold text-[#00a1e7] pl-[3px]">${Math.round(value)}</span>
             </div>
         `).join('');
 
