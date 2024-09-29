@@ -114,3 +114,8 @@ sudo systemctl restart nginx
 - Для запуска fine tune всё необходимое есть в папке train.
 - Для запуска готовых моделей скачайте нашу fine-tuned [модель](https://disk.yandex.ru/d/xIzOgrKFHvnPdQ) и скопируйте содержимое в папку tag_generation_model 
 
+### Запуск
+Запустите скрипт через любой доступный веб сервер, например
+```
+uvicorn main:app --host 0.0.0.0 --port 8203 --reload
+``` 
